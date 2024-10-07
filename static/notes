@@ -8,3 +8,8 @@ git add. # all the changed files
 
 make the commit:
 git commit -m "a description of the changes"
+
+git branch -M main
+git remote add origin https://github.com/Alliball/first_practice.git
+git push -u origin main  # push new local commits to the remote repo
+
